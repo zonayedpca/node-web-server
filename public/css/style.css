@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'consolas', monospace;
+  background-color: #e9ebee;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  flex-wrap: nowrap;
+  max-width: 640px;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.center {
+  flex: 1 1 100%;
+}
+
+.wrapper .credits {
+  margin-top: 45px;
+}
+
+.server-status {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 5px 30px hsla(224,8%,64%,.25);
+  box-shadow: 0 5px 30px hsla(224,8%,64%,.25);
+}
+
+.server-status img {
+  width: 90px;
+}
+
+.credits ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.credits ul li {
+  display: inline-block;
+  margin: 0 5px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.credits ul li a {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 1px 3px;
+  border-radius: 3px;
+}

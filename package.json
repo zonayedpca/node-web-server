@@ -1,0 +1,19 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "A Simple Node Express EJS Web Server ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "node-server"
+  ],
+  "author": "Zonayed Ahmed",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
